@@ -18,7 +18,7 @@ We will be using Ubuntu version 20.04.6 for our work.
 - Installation command link for [ROS Noetic 20.04](https://wiki.ros.org/ROS/Installation).
 - Select the [installation](https://wiki.ros.org/Installation) option.
 - Select your platform. As we discussed, we will be using **Ubuntu 20.04.6**.
-- <img src="https://github.com/alanoudmk/Install-ROS-Noetic-on-WSL/assets/127528672/f23c3c90-cbfe-433f-906b-702564c32876" width="150" height="80">
+- <img src="https://github.com/alanoudmk/Install-ROS-Noetic-on-WSL/assets/127528672/f23c3c90-cbfe-433f-906b-702564c32876" width="200" height="80">
 
 
  Open the **Terminal** write the following commands: 
