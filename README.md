@@ -10,8 +10,13 @@
 
 ***
 
+
 ## **2. Ensure you have downloaded Ubuntu and created the virtual machine**
 We will be using Ubuntu version 20.04.6 for our work.
+
+
+***
+
 
 
 ## **3.Install ROS Noetic 20.04**
@@ -23,27 +28,27 @@ We will be using Ubuntu version 20.04.6 for our work.
 
  Open the **Terminal** write the following commands: 
 - Set up your Sources.list first.
-```
-sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
-```
+    ```
+   sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+   ```
 - Set up your Keys
-```
-sudo apt install curl # if you haven't already installed curl
-```
-```
-curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
-```
+  ```
+   sudo apt install curl # if you haven't already installed curl
+   ```
+   ```
+   curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
+   ```
 - Installation _I personally recommend using the Desktop_Full installation_ .
-```
-sudo apt update
-```
-```
-sudo apt install ros-noetic-desktop-full
-```
+   ```
+  sudo apt update
+   ```
+  ```
+  sudo apt install ros-noetic-desktop-full
+  ```
 - Enviroment Setup
-```
-source /opt/ros/noetic/setup.bash
-```
+  ```
+  source /opt/ros/noetic/setup.bash
+  ```
 - To source ROS Noetic in every terminal and every session:
   ```
   source/opt/ros/noetic/setup.bash
@@ -52,13 +57,17 @@ source /opt/ros/noetic/setup.bash
   echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
   ```
 - To verify you downloaded correctly, write: 
-```
-gedit ~/.bashrc
-```
+   ```
+   gedit ~/.bashrc
+   ```
 - Make sure you find _"source /opt/ros/noetic/setup.bash"_ at the end of the _.bashrc_file, as shown in the image below: 
 
- <img src="https://github.com/alanoudmk/Install-ROS-Noetic-on-WSL/assets/127528672/5f56c79b-b2d6-47e7-a75e-bbe7ab86c023" width="400" height="40">
+<img src="https://github.com/alanoudmk/Install-ROS-Noetic-on-WSL/assets/127528672/5f56c79b-b2d6-47e7-a75e-bbe7ab86c023" width="400" height="40">
  
+
+***
+
+
 
 ## **Useful Resources**
 
