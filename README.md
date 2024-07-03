@@ -11,7 +11,7 @@
 ***
 
 
-## **2. Ensure you have downloaded Ubuntu and created the virtual machine**
+## **2. Ensure you have downloaded Ubuntu**
 We will be using Ubuntu version 20.04.6 for our work.
 
 
