@@ -1,6 +1,8 @@
 
 
 # **Install ROS Noetic**
+
+
 ## **1. Ensure Your Windows 10 OS is Up to Date**
  > Settings -> System -> About
 <img src="https://github.com/alanoudmk/Install-ROS-Noetic-on-WSL/assets/127528672/486e095d-68b7-4ca9-af96-f375bcaf0d60" width="200" height="100">
@@ -13,6 +15,7 @@
 
 ## **2. Ensure you have downloaded Ubuntu**
 We will be using Ubuntu version 20.04.6 for our work.
+[How to Download Ubuntu](https://github.com/alanoudmk/Install-Ubuntu-20.04.6-On-VirtualBox) 
 
 
 ***
